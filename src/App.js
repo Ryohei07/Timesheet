@@ -8,10 +8,10 @@ export default function App() {
         <p>退社時間：</p>
       </div>
       <div className="inputA">
-        <button>出社</button>
+        <button className="startTime">出社</button>
       </div>
       <div className="inputB">
-        <button>退社</button>
+        <button className="endTime">退社</button>
       </div>
     </>
   );
