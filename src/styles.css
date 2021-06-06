@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+body {
+  font-size: 12px;
+}
+
 button {
   width: 200px;
   height: 48px;
@@ -12,4 +16,8 @@ button {
   color: #fff;
   background-color: #099e60;
   margin: 8px;
+}
+
+.outputArea {
+  margin-bottom: 40px;
 }
