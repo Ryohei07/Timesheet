@@ -8,10 +8,24 @@ export default function App() {
         <p>退社時間：</p>
       </div>
       <div className="inputA">
-        <button className="startTime">出社</button>
+        <button
+          className="startTime"
+          onClick={function () {
+            alert("click");
+          }}
+        >
+          出社
+        </button>
       </div>
       <div className="inputB">
-        <button className="endTime">退社</button>
+        <button
+          className="endTime"
+          onClick={function () {
+            alert("click");
+          }}
+        >
+          退社
+        </button>
       </div>
     </>
   );
