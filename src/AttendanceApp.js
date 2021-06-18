@@ -8,8 +8,8 @@ export default function AttendanceApp() {
   return (
     <>
       <div className="outputArea">
-        <p>出社時間：</p>
-        <p>退社時間：</p>
+        <p>出社時間A：</p>
+        <p>退社時間A：</p>
       </div>
       <div className="inputA">
         <button className="startTime" onClick={diplayAlert}>
@@ -17,12 +17,7 @@ export default function AttendanceApp() {
         </button>
       </div>
       <div className="inputB">
-        <button
-          className="endTime"
-          onClick={function () {
-            alert("click");
-          }}
-        >
+        <button className="endTime" onClick={diplayAlert}>
           退社
         </button>
       </div>
